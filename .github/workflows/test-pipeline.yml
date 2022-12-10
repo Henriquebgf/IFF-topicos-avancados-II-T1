@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ tdd-conversor-romanos ]
+    branches: [ main ]
   pull_request:
-    branches: [ tdd-conversor-romanos ]
+    branches: [ main ]
     
 jobs:
   build:
